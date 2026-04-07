@@ -23,16 +23,19 @@ Principiul de functionare este unul simplu :
 I) Bufferul initializat 
 
 memory -> [................................................]
+
 offset = 0
 
 II) Luam exemplul din cod, int x = 10. Deci facem alocare cu sizeof(int), deci 8 bytes (deoarece facem aliniere la 8)
 
 memory -> [XXXXXXXX........................................]
+
 offset = 8
 
 III) Apoi facem alocarea variabilei double. sizeof(double) este 8, deci se aduna cu 8. 
 
 memory -> [XXXXXXXXXXXXXXXX...........................]
+
 offset = 16
 
 
