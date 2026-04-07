@@ -18,4 +18,22 @@ Principiul de functionare este unul simplu :
 - functia allign8() are rolul de a rotunji la urmatorul multiplu de 8 dimensiunea trimisa
 - avem functie de delete si de reset (important info: de preferat ar fi ca inainte sa fie dezalocat trebuie sa fie resetat bufferul la 0)
 
+**Principiu de functionare** 
+
+I) Bufferul initializat 
+
+memory -> [................................................]
+offset = 0
+
+II) Luam exemplul din cod, int x = 10. Deci facem alocare cu sizeof(int), deci 8 bytes (deoarece facem aliniere la 8)
+
+memory -> [XXXXXXXX........................................]
+offset = 8
+
+III) Apoi facem alocarea variabilei double. sizeof(double) este 8, deci se aduna cu 8. 
+
+memory -> [XXXXXXXXXXXXXXXX...........................]
+offset = 16
+
+
 ## EN 
