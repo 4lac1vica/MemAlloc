@@ -1,5 +1,7 @@
 ## Bump Memory Allocator 
 
+**Tools** : CLion and C++ libraries
+
 ## RO
 
 Acest cod este un prototip pentru un alocator de memorie. Este foarte simplu si este destul de bugguit. 
@@ -15,7 +17,5 @@ Principiul de functionare este unul simplu :
      
 - functia allign8() are rolul de a rotunji la urmatorul multiplu de 8 dimensiunea trimisa
 - avem functie de delete si de reset (important info: de preferat ar fi ca inainte sa fie dezalocat trebuie sa fie resetat bufferul la 0)
-
-**Tooluri** : CLion and C++ libraries
 
 ## EN 
